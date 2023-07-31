@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>聖誕小天使抽抽👼</title>
+</head>
+<body>
+    <section class="main">
+        <h1 class="title">聖誕抽籤</h1>
+        <p class="info">歡迎參與12/23聖誕交換禮物，輸入你的名字抽取你的小主人吧！</p>
+        <div class="inputDraw">
+          <label for="name">你的名字：</label>
+          <input type="text" id="name">
+          <button onclick="draw()">抽籤</button>
+        </div>
+        <div id="result"></div>
+    
+      </section>
+        
+      <section class="admin-use">
+        <div class="admin">
+        <label for="password">輸入密码：</label>
+        <input type="password" id="password">
+        <button class="showpw" onclick="resetDrawnName()">重置</button>
+        <button class="showpw" onclick="showFullList()">顯示完整清单</button>
+        <div id="result"></div>
+        </div>
+      </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
