@@ -26,6 +26,10 @@
   }
   
   @media screen and (max-width: 500px) {
+      body{
+          display: inline-block;
+      }
+      .main{margin: 80px 0;}
     .inputDraw {
       display: flex;
       flex-direction: column;
@@ -82,7 +86,6 @@
     border-radius: 8px;
     padding: 14px 30px;
     border: none;
-    margin: 0 10px;
     cursor: pointer;
     color: #fff;
     background-color: #D90429;
@@ -114,6 +117,12 @@
     .admin label, .admin input, .admin button {
       width: 70%;
       margin: 8px 0;
+    }
+    .admin label{
+        line-height: auto;
+    }
+    .admin button{
+        padding: 8px 30px;
     }
   }
   .password {
